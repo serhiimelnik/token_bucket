@@ -1,0 +1,9 @@
+{application,
+ 'token_bucket',
+ [{description, "Token bucket"},
+  {vsn, "0.1.0"},
+  {modules, []},
+  {registered, [token_bucket_sup]},
+  {applications, [kernel,stdlib]},
+  {mod, {token_bucket_app, []}},
+  {env, []}]}.
